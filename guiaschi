@@ -1,0 +1,40 @@
+# include <stdio.h>
+# include <math.h>
+
+int main(){
+	printf("Olá, Me chamo Guilherme Gomes Aschi.\n Curso de ADS.\n Estudo na univesidade La salle.\n Numero de Matricula 202212831.\n ");
+	 
+	float X,Y,Soma, Subtracao, Multiplicacao, Potencia, Raiz1,Raiz2, Divisao;
+	int operacao;
+	
+	printf("Digite 1 para Raiz e 2 para Soma, Subtracao, Multiplicacao, Divisao e Potencia\n ");
+	scanf("%d",&operacao);
+	
+	printf("Digite o primeiro numero:\n");
+	scanf("%f",&X);
+	
+	printf("Digite o segundo valor:\n");
+	scanf("%f",&Y);
+	
+	
+	
+	Soma = X + Y;
+	Subtracao = X - Y;
+	Multiplicacao = X * Y;
+	Divisao = X / Y;
+	Potencia = pow(Potencia,2);
+	Raiz1 = sqrt(X);
+	Raiz2 = sqrt(Y);
+	
+	if (operacao ==1){
+	printf("Raiz de %.2f e %.2f:\n E a Raiz de %.2f e %.2f\n",X,Raiz1,Y,Raiz2);
+}
+    if (operacao ==2){
+	printf("Soma: %.2f\n", Soma);
+	printf("Subtracao: %.2f\n",Subtracao);
+	printf("Multiplicacao: %2.f\n",Multiplicacao);
+	printf("Divisao: = %.2f\n",Divisao);
+	printf("Potencia: %2.f\n",Potencia);
+
+}
+}
